@@ -18,7 +18,7 @@ window.onload = function(){
     let date = goalDate.value.toString();
    
 
-    if (goal === "") {
+    if (goal === "" || date === "") {
       errorMsg.innerHTML = "All fields must be filled!"
     }
     else {
@@ -28,7 +28,6 @@ window.onload = function(){
       emptyGoals.style.display = "none";
       addGoalBtn.style.display = "block";
     }
-    
     return false;
   }; 
 };
