@@ -60,7 +60,10 @@ a:hover {
 }
 #goals {
   display: none;
+  color:#FECD83;
+  list-style: none;
 }
+
 #button-container {
   display: flex;
   justify-content: center;
@@ -79,6 +82,13 @@ a:hover {
 #add-goal-btn:hover {
   background:#C9BFF2;
 }
+
+/* GOAL FORM */
+#add__goal {
+  display: none;
+  color: white;
+}
+
 
 /* EXERCISES SECTION */
 #profile-exercises {

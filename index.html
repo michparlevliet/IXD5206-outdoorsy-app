@@ -34,13 +34,31 @@
         <h3>Toronto, ON</h3>
         <p>tishachen93@gmail.com</p>
         <h4 id="no-goals">You have not added any goals yet!</h2>
-        <ul id="goals">
-        </ul>
+        <div id="goals">
+          <h3>Tisha's Goals:</h3>
+          <ul id="goals">
+          </ul>
+        </div>
       </div>  
     </div>
     <div id="button-container">
       <button id="add-goal-btn">Add Goal</button>
     </div>
+    <fieldset id="add__goal">
+      <legend>Add New Goal</legend>
+      <form id="goal__form">
+        <div>
+          <label for="goal__title" class="goal__label">Goal Title:</label>
+          <input name="goal__title" class="goal__title" type="text"></input>
+        </div>
+        <div>
+          <label for="goal__date" class="goal__label">Goal Date:</label>
+          <input name="goal__date" class="goal__date" type="date"></input>
+        </div>
+          <p id="error"></p>
+          <input class="goal__submit" name="goal__submit" type="submit" value="Save Goal"></input>
+      </form>
+    </fieldset>
   </main>
   <section id="profile-exercises">
     <h2>My Interests</h2>
